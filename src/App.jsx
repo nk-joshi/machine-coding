@@ -1,6 +1,6 @@
 import CardStack from "./components/CardStack";
 import data from "./data.json";
-import "./app.css";
+import "./App.css";
 
 const App = () => {
   return (
