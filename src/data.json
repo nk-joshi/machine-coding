@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Card_1",
+    "media": [
+      { "type": "image", "url": "https://picsum.photos/800/400" },
+      { "type": "video", "url": "https://www.w3schools.com/html/movie.mp4" },
+      { "type": "image", "url": "https://picsum.photos/id/1/500/300" }
+    ]
+  },
+  {
+    "title": "Card_2",
+    "media": [
+      { "type": "image", "url": "https://picsum.photos/id/10/500/300" },
+      { "type": "video", "url": "https://www.w3schools.com/html/movie.mp4" }
+    ]
+  }
+]
