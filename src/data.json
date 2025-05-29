@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Card_1",
+    "media": [
+      { "type": "image", "url": "https://picsum.photos/800/400" },
+      {
+        "type": "video",
+        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "duration": 596
+      },
+      { "type": "image", "url": "https://picsum.photos/id/1/500/300" }
+    ]
+  },
+  {
+    "title": "Card_2",
+    "media": [
+      { "type": "image", "url": "https://picsum.photos/id/10/500/300" },
+      {
+        "type": "video",
+        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        "duration": 653
+      }
+    ]
+  },
+  {
+    "title": "Card_3",
+    "media": [
+      { "type": "image", "url": "https://picsum.photos/id/11/500/300" },
+      {
+        "type": "video",
+        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "duration": 15
+      }
+    ]
+  },
+  {
+    "title": "Card_4",
+    "media": [
+      { "type": "image", "url": "https://picsum.photos/id/12/500/300" },
+      { "type": "image", "url": "https://picsum.photos/id/13/500/300" },
+      { "type": "image", "url": "https://picsum.photos/id/14/500/300" }
+    ]
+  },
+  {
+    "title": "Card_5",
+    "media": [
+      { "type": "image", "url": "https://picsum.photos/id/15/500/300" },
+      {
+        "type": "video",
+        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+        "duration": 60
+      },
+      {
+        "type": "video",
+        "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+        "duration": 15
+      }
+    ]
+  }
+]

@@ -1,12 +1,13 @@
-import './App.css'
+import CardStack from "./components/CardStack";
+import data from "./data.json";
+import "./app.css";
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      HELLO WORLD
-    </>
-  )
-}
+    <div className="app">
+      <CardStack data={data} />
+    </div>
+  );
+};
 
-export default App
+export default App;
