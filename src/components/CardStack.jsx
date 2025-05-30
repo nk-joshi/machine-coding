@@ -1,25 +1,33 @@
-import { useState } from "react";
-import MediaCarousel from "./MediaCarousel";
+import MediaCard from "./MediaCard";
 
 const CardStack = ({ data }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const handleScroll = (e) => {
-    if (e.deltaY > 0) {
-      setCurrentIndex((prevIndex) => Math.min(prevIndex + 1, data.length - 1));
-    } else {
-      setCurrentIndex((prevIndex) => Math.max(prevIndex - 1, 0));
-    }
-  };
-
   return (
-    <div className="card-stack" onWheel={handleScroll}>
-      {data.map((card, index) => (
+    <div
+      style={{
+        height: "100vh",
+        overflowY: "scroll",
+        scrollSnapType: "y mandatory",
+        scrollBehavior: "smooth",
+        scrollbarWidth: "none",
+        maxWidth: "400px",
+      }}
+    >
+      {data.map((datum) => (
         <div
-          key={card.title}
-          className={`card ${index === currentIndex ? "visible" : ""}`}
+          key={datum.title}
+          style={{
+            height: `100%`,
+            scrollSnapAlign: "start",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontSize: "3rem",
+            background: "#fff",
+            color: "#fff",
+            width: "100%",
+          }}
         >
-          <MediaCarousel media={card.media} />
+          <MediaCard data={datum} />
         </div>
       ))}
     </div>
